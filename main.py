@@ -1,6 +1,5 @@
 import sys
 import os
-import requests
 import semver
 import survey
 import aiohttp
@@ -8,15 +7,10 @@ import asyncio
 import traceback
 import json
 import random
-import crayons
-import logging
 import winreg
 import aiofiles
 import psutil
-import fade
 import xml.etree.ElementTree as ET
-from pystyle import *
-from typing import Any
 from datetime import datetime
 from rich import print_json
 from console.utils import set_title
